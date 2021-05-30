@@ -1,0 +1,288 @@
+img.m{
+    width: 30px;
+    height: 24px;
+    visibility: hidden;
+    padding-top: 8px;
+
+}
+img{
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    overflow: hidden;
+    margin: 0px;
+    float: left;
+    padding: 0px;
+    justify-content: center;  
+}
+
+li{
+
+    
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+}
+
+header
+{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    padding: 8px;
+    height: 40px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif, Helvetica;
+    font-size: 15px;
+}
+
+.search{
+ 
+    background-color: rgb(66, 65, 65);
+    height: 25px;
+    color: white;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap; 
+    align-content: center;
+    align-items: center;
+    
+}
+
+main
+{
+    background-image: url('bg.jpg');
+    background-size: 1200px 500px;
+   
+    width: 100%;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+}
+
+#B{
+    font-size: 50px;
+    font-family: Arial, sans-serif, Helvetica;
+    margin: 0px;
+    font-weight: 100 ;
+}
+#sub{
+
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: Arial, sans-serif, Helvetica;
+    color: grey;
+}
+
+b{
+    color: white;
+    font-weight: normal;
+}
+
+form
+{
+    background-color: white; 
+    color: black;
+    padding: 20px;
+    max-width: 300px;
+    text-align: left;
+    font-family: Arial, sans-serif, Helvetica;
+}
+
+#s{
+    font-size: 14px;
+}
+
+button
+{
+    color: ghostwhite;
+    background-color: rgb(36, 201, 36);
+    padding: 10px;
+    border-radius: 8px;
+    font-family: Arial, sans-serif, Helvetica;
+   
+}
+
+div{
+    margin: 60px;
+    text-align :center;
+    align-content: center;
+    font-family: Arial, sans-serif, Helvetica;
+    
+}
+@media (max-width: 1011px)
+{
+
+    li{
+        visibility: hidden;
+    }
+    img.m{
+        visibility: visible; 
+        padding: 8px 30px 8px 0px;
+        height: 25px;
+    }
+    img.g{
+        height: 35px;
+        width: 35px;
+    }
+    div.flex-item1{
+        margin-bottom: 0px;
+        
+    }
+    div.flex-item{
+        margin-top: 5px;
+    }
+    #B{
+        text-align: center;
+        font-size: 46px;
+
+    }
+    #sub{
+        text-align: center;
+
+    }
+}
+
+@media (max-width: 800px)
+{
+    header{
+        height: 30px;   
+    }
+    img.m{
+        visibility: visible;      
+        padding-left: 0px;
+        padding-right: 30px;
+        height: 20px;
+    }
+    img.g{
+        visibility: visible;
+        padding-right: 5px;
+        padding-left: 5px;
+        margin-left: 15px;
+        margin-bottom: 3px;
+
+    } 
+    li{
+        visibility: hidden;
+    }
+     
+    main{
+        background-color: rgb(27, 27, 27);
+    }
+    div.flex-item1{
+        width: 540px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+    #B{
+        text-align: center;
+        font-size: 45px;
+    }
+    #sub{
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 0px;
+        
+
+    }
+   
+    div.flex-item{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    div.footer{
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 500px)
+{
+    header{
+        height: 30px;   
+    }
+    img.m{
+        width: 30px;
+        height: 24px;
+        visibility: visible;
+        padding: 5px;
+    
+    }
+    img.g{
+        visibility: visible;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    main{
+        background-color: rgb(27, 27, 27);
+    }
+    p.B{
+        margin: 40px;
+        text-align: center;
+    }
+  
+    form{
+         visibility: hidden;
+    }
+   
+    li{
+        visibility: hidden;
+    }
+    
+    .flex-container{
+
+
+        height: 70%;    
+    }
+    div.flex-item1{
+
+        padding-top: 45%;
+        height: 45%;
+        margin-left: 5px;
+        margin-right: 5px;
+
+        width: 400px;
+        
+        padding-top: 40%;
+    }
+   
+   
+    #B{
+        text-align: center;
+        font-size: 50px;
+    }
+    #sub{
+        text-align: center;
+        margin-right: 10px;
+        margin-left: -2px;
+        
+
+    }
+    button.e{
+
+        visibility: visible;
+        margin-top: -160px;
+        /* width: 150px;
+        height: 15px; */
+        width: 174px;
+        height: 39px;
+    }
+}
+
+
